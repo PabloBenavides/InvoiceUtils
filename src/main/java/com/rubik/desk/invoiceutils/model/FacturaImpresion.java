@@ -216,7 +216,6 @@ public class FacturaImpresion {
         setPartida_subtotal(p.getSubtotal());
         setPartida_iva(p.getIva());
         setPartida_total(p.getTotal());
-        setIs_service(p.getIs_service());
     }
     
     public FacturaImpresion(Factura f) {
