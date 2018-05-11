@@ -155,7 +155,6 @@ public class FacturaImpresion {
         setPorc_iva(f.getPorc_iva());
         setImporte_letra(f.getImporte_letra());
         setActivo(f.getActivo());
-        setIsLogeable(f.getIsLogeable());
         
         setNo_certificado(f.getNo_certificado());
         setSello(f.getSello());
