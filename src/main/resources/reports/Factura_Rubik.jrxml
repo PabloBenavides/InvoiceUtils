@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Factura_Rubik" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f22db226-8ee1-49b0-9063-c61d75ee6ee8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="124" splitType="Stretch">
+			<staticText>
+				<reportElement x="11" y="30" width="251" height="56" uuid="82604f09-3b14-4c9e-9535-279871957dbd"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[RFC: BEMP8905273G1
+Dirección: Loma Bonita No. 206 Int. No. 4 
+Col. Jesus Elías Piña III   CP: 89365 
+Email: pblo.benavides@gmail.com
+
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="4" width="251" height="20" uuid="679bff06-135a-44b9-91b4-80db6d24d2c6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pablo Benavides Molina]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="85" width="251" height="30" uuid="7c5268f6-6367-4021-8cad-7f1696f0e03c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Régimen de Personas Físicas con Actividades Empresariales y Profesionales]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="281" y="1" width="260" height="27" uuid="78678e4c-f59c-4484-bc47-8a3262280f4f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FOLIO: TAM00021 / 00006]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="281" y="29" width="274" height="16" forecolor="#000000" backcolor="#CCCCCC" uuid="b1d22753-d47e-4889-b3e9-6009840bd421"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Folio Fiscal:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="281" y="60" width="274" height="16" backcolor="#CCCCCC" uuid="e867380e-d561-4f9a-ac4c-f05f50286d62"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[No. Certificado Digital:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="281" y="92" width="274" height="16" backcolor="#CCCCCC" uuid="62965274-ef98-466e-bad8-7cad03f45e33"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[No. Certificado SAT:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="281" y="45" width="274" height="16" uuid="35903b0a-beff-4e6b-91ab-7f9a081bf4a5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[9ae1287f-1540-4a8d-b7a5-566492ac307d]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="281" y="76" width="274" height="16" uuid="c4c17deb-db35-402f-b371-b7c19a5ba20b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[00001000000307357496]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="281" y="108" width="274" height="16" uuid="4bd58d8a-f181-45cd-b417-4b960316bb81"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[00001000000306850881]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement mode="Transparent" x="281" y="29" width="274" height="95" uuid="e50e6164-5ca3-4214-9de9-4ca1900e4a87"/>
+			</rectangle>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="94" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="0" y="19" width="555" height="70" uuid="2e2e041c-1ccd-4cf6-a9b9-c8b90c3e6377"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="163" y="0" width="392" height="19" uuid="5050a4da-95aa-4027-823d-74b263d77824"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[Lugar y fecha de emisión: Tampico Tamaulipas a 29/07/2016 10:13:39 p.m.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="30" width="407" height="16" uuid="6c3deb35-48b4-449c-ae0c-9f2fa669749a"/>
+				<text><![CDATA[Cliente: AGRO-LAS LOLAS, SA. de C.V. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="457" y="46" width="84" height="16" uuid="641bdb0d-b5bb-4fc4-a404-e4743b67bed9"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[CP:  89330
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="418" y="30" width="123" height="16" uuid="e102cb75-2516-46d9-b718-d2e3f9104750"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[RFC: ALO020506E72]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="403" y="62" width="138" height="16" uuid="a9d89b91-a8f6-48e2-896c-3e78db5e7089"/>
+				<text><![CDATA[Pais:  MEXICO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="62" width="169" height="16" uuid="c279aa77-7d9f-46f7-a11f-a5e3f666ca37"/>
+				<text><![CDATA[Estado: TAMAULIPAS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="62" width="223" height="16" uuid="5ea4fcb3-bcf6-465f-8026-ebd241029b4d"/>
+				<text><![CDATA[Ciudad:  TAMPICO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="46" width="147" height="16" uuid="812601e6-9b2f-4f9c-b955-bd59e02b9059"/>
+				<text><![CDATA[Colonia: FLAMBOYANES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="46" width="299" height="16" uuid="4610469b-5b6b-4918-a752-0dcb1521f98e"/>
+				<text><![CDATA[Dirección: PALMAS 101]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="264" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="480" y="0" width="75" height="20" backcolor="#CCCCCC" uuid="116a4e60-b91f-4cc3-9d37-1edd3b878470"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Importe]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="412" y="0" width="68" height="20" backcolor="#CCCCCC" uuid="e3bdb921-4695-4bf5-8652-6c85004026cf"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[P.U]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="123" y="0" width="289" height="20" backcolor="#CCCCCC" uuid="b5b7726d-5e83-406e-918a-45eb074f49d9"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Descripcion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="94" y="0" width="29" height="20" backcolor="#CCCCCC" uuid="28af9aa6-1470-46a2-bf0e-012f24f3c9f0"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Ctd.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="44" y="0" width="50" height="20" backcolor="#CCCCCC" uuid="8d22d532-e37d-4d03-9b83-f14d7146262e"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Unidad]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="44" height="20" backcolor="#CCCCCC" uuid="bd43044e-4420-449e-96be-1c115e04a714"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Clave]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="44" height="31" uuid="ddcbb502-e8aa-4b44-9035-69de01fe30f4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[SYS018]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="44" y="20" width="50" height="31" uuid="6b746818-5a93-4599-b265-9d537069fec1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Servicio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="94" y="20" width="29" height="31" uuid="cd21c202-75bd-42b4-91cc-858860c4332f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="123" y="20" width="289" height="31" uuid="28394a23-2674-4648-b6de-d2aaabd19b32"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Instalacion e implementacion de Sistema de Empleados y Pagos para Agro LasLolas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="412" y="20" width="68" height="31" uuid="298750da-7e54-4207-bd1c-7868fa121828"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[6,300.00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="20" width="75" height="31" uuid="8fd76f4b-3bfb-4f23-8ed9-bd0ec03feb6f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[6,300.00]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement mode="Transparent" x="0" y="0" width="555" height="124" uuid="651480c6-e137-42b0-9769-8f5dcac8674b"/>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="0" y="136" width="353" height="100" uuid="85a5b2d8-e1ed-4999-8882-2430915a6df7"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="236" width="353" height="28" uuid="21ef8d96-63bd-4d55-93f7-c85e7bea6c80"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Este documento es una representación impresa de un CFDI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="136" width="342" height="20" uuid="49378225-101a-4903-a2b4-f77989bdbfd8"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[Importe con Letra: Siete mil trescientos ocho 00/100 MN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="176" width="342" height="20" uuid="e87c5548-724d-4044-bb4b-7e6aa65f9b34"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Forma de Pago:  Pago en una sola exhibición]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="196" width="223" height="20" uuid="dab14443-da38-4c03-b56f-d280bdf56618"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Condiciones de Pago:  Contado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="363" y="136" width="192" height="20" backcolor="#CCCCCC" uuid="d8684b75-6553-4ff7-89ac-5a99f9e37691"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[IMPORTE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="363" y="156" width="80" height="20" backcolor="#CCCCCC" uuid="38e8ad9b-e4d7-49f7-ab60-433148e36f41"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[Importe:  $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="363" y="176" width="80" height="20" backcolor="#CCCCCC" uuid="64496189-53fa-49e9-9ba2-d55a0dcaf60d"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[Descuento:  $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="363" y="216" width="80" height="20" backcolor="#CCCCCC" uuid="c8020efc-63ac-486f-a50c-33dc2062fa4d"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[IVA:  $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="363" y="196" width="80" height="20" backcolor="#CCCCCC" uuid="ad17770b-aff1-4a1b-8b26-99c71de349b3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[Subtotal:  $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="363" y="236" width="80" height="20" backcolor="#CCCCCC" uuid="53fc384d-36f0-4bdb-b213-54f3ec24d6e9"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[Total:  $]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="156" width="100" height="20" uuid="56abcd14-7808-45be-9f15-9420ce20d159"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[6,300.00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="176" width="100" height="20" uuid="c974f85b-68b4-4947-a677-e7f46f8a7d26"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[0.00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="196" width="100" height="20" uuid="9b209d3b-8f1c-4381-9e9f-709a15cc4a6f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[6,300.00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="216" width="100" height="20" uuid="b45c731b-10cc-4066-83a6-44d6c9107eba"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[1,008.00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="455" y="236" width="100" height="20" uuid="32295ca4-3278-442e-8761-e25884a4f8e5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle"/>
+				<text><![CDATA[7,308.00]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement mode="Transparent" x="363" y="136" width="192" height="120" uuid="45b5d9ba-f98f-4dc1-9c46-1ee54b2e0499"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="11" y="216" width="342" height="20" uuid="db7e5484-15a9-4e79-87e7-2024c2ca21b2"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Metodo de Pago:  CHEQUE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="196" width="119" height="20" uuid="34f6ff4f-a45c-4a92-90f4-4fe26e3b33c0"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Dias de Crédito:]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<columnFooter>
+		<band height="53" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="0" y="0" width="555" height="53" uuid="18ca09d1-c516-401e-933a-3425ff4b668e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="11" y="0" width="100" height="20" uuid="a0018df6-4ad0-41c7-86fd-b190897451b1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Observaciones:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="20" width="544" height="33" uuid="e23871fa-ba2e-4fff-b64f-d429efb1b099"/>
+				<text><![CDATA[El monto de la factura incluye los servicios de instalacion, capacitacion e implementacion para el Sistema de Empleados y Pagos para Agro-Las Lolas]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="267" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="6" width="555" height="20" backcolor="#CCCCCC" uuid="d4e95fae-a689-4953-a3cc-aaa444981e3b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Sello Digital del CFDI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="26" width="552" height="46" uuid="f2693d6f-9036-4f6e-9fa9-cc6970ad1b3a"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[LM4uQAkszLIfNi7YPGF2C9yu6gEt0oCUp1gcqbbdtK+kcuWnZncgYNI5slCQtQANW32DklWKqtiL1L7K1M4MTNXtW4LEmRLiVUgbdcRbGjikAVu69w55Lbarz3z2TshlnHfTkX4KZIBoNnb5Qh+RRp3A8WVYP
+x/e4s17yKpmRbcXgIqv2DTLtTmNTMPYfFdhgTlE5RKpg6c5O0g8a13VSVOnrU/eqgZdtGPMh5PyrxYID9MS7qgUQ866gOVFzZdG794FDipTeqNZX61CYHwpvgX/bgTMw4LKQ3ibf0p9xE8WsVgY56/DaEd
+esYb+0AJG00uvF3r7/fLCIWdfAc/R2A==]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement mode="Transparent" x="0" y="6" width="555" height="66" uuid="4f6fb583-8b37-48d4-9975-0f842ded041f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="11" y="95" width="536" height="36" uuid="fb785e55-8d22-4c41-8db5-151f3452f15c"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[W9y9VdpUiJI9z2gyAa77dCDXNhaytkuoLrB0o3Eu6P5x9qG3qyJBnEeRQCKkqf76jXXvxONdPvI+xadisOX23Q6S7SeHLd7mnGn6v8FpnsS4Lge0wP5LX5Qsyjn5v
+xnLMjmnrvxyuZT1MNjSb9dYbi/V75XjboniDaOxtWQRc4I=]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="75" width="555" height="20" backcolor="#CCCCCC" uuid="a610d155-789c-4087-86c9-7b6cc2ac1253"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Sello Digital del SAT]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement mode="Transparent" x="0" y="75" width="555" height="56" uuid="cafcf347-fffb-4912-ad85-fd81d699d6cc"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="145" y="155" width="402" height="108" uuid="ff2d3c1b-4f4f-4d08-8a7a-b9430ef67058"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[||1.0|88C49612-542C-4D98-9C6E-0C5832424FF6|2016-07-
+29T10:13:39|LM4uQAkszLIfNi7YPGF2C9yu6gEt0oCUp1gcqbbdtK+kcuWnZncgYNI5slCQtQANW32DklWKqtiL1L7K1M4MTNXtW4LEmRLiVUgbdcRbGjikAVu69
+w55Lbarz3z2TshlnHfTkX4KZIBoNnb5Qh+RRp3A8WVYPx/e4s17yKpmRbcXgIqv2DTLtTmNTMPYfFdhgTlE5RKpg6c5O0g8a13VSVOnrU/eqgZdtGPMh5PyrxYID9
+MS7qgUQ866gOVFzZdG794FDipTeqNZX61CYHwpvgX/bgTMw4LKQ3ibf0p9xE8WsVgY56/DaEdesYb+0AJG00uvF3r7/fLCIWdfAc/R2A==|0000100000030685
+0881||]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="134" y="135" width="421" height="20" backcolor="#CCCCCC" uuid="95466308-6368-4342-9042-2d3315b9e414"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Cadena Original del complemento de certificación del SAT]]></text>
+			</staticText>
+			<rectangle radius="10">
+				<reportElement mode="Transparent" x="134" y="135" width="421" height="128" uuid="1093fab1-9811-477e-972d-3b2228cf7c16"/>
+			</rectangle>
+			<image>
+				<reportElement x="6" y="137" width="123" height="125" uuid="ac757408-20ab-4a1b-a832-70b97adfd4b9"/>
+				<imageExpression><![CDATA["Captura.JPG"]]></imageExpression>
+			</image>
+		</band>
+	</pageFooter>
+</jasperReport>
