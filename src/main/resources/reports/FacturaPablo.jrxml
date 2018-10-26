@@ -2,7 +2,7 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="612" pageHeight="792" whenNoDataType="AllSectionsNoDetail" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ddb31b0e-c776-4c60-b029-50022afd9e4c">
 	<property name="ireport.zoom" value="1.5"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="525"/>
+	<property name="ireport.y" value="0"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -63,7 +63,7 @@ EMAIL: pblo.benavides@gmail.com]]></text>
 			<staticText>
 				<reportElement x="295" y="44" width="277" height="14" uuid="d38dbf96-6b8d-41a4-a547-0c5e5936926d"/>
 				<textElement textAlignment="Center"/>
-				<text><![CDATA[757efe11-1e6f-417a-b56f-7b147a0f361f]]></text>
+				<text><![CDATA[67970821-e15b-4a71-9e3e-d134e69a1c6b]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="295" y="72" width="277" height="14" uuid="83e9a399-ffd9-4880-91fe-f9c3876a796b"/>
@@ -90,12 +90,12 @@ EMAIL: pblo.benavides@gmail.com]]></text>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="false"/>
 				</textElement>
-				<text><![CDATA[FAC36]]></text>
+				<text><![CDATA[FAC37]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="201" y="124" width="365" height="22" uuid="049facc2-8ca8-4b66-97e7-896b78a438fc"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle"/>
-				<text><![CDATA[Lugar y fecha de emisión: (89365) Tampico Tamps. a  06/07/2018 05:07:28 p.m.]]></text>
+				<text><![CDATA[Lugar y fecha de emisión: (89365) Tampico Tamps. a  14/08/2018 09:37:11 a.m]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="10" y="129" width="100" height="17" uuid="2c3d57bf-6597-43c5-84f8-16b5ebd711d0"/>
@@ -458,21 +458,21 @@ Fullstack Developer]]></text>
 				<textElement>
 					<font size="8"/>
 				</textElement>
-				<text><![CDATA[fE6px1kE1eUGJYUuFgpkqTPv6LPCS6GSkZc6co8nQKTM6N1Jsonn0Q8XWvfMJMvKVz9hPidz2lh0PKg/c0kVgtN1Kpj2nL60Mu4V/uD8gTHsyaaCtOT9N/zJkqj8hv9CdUK/1w9KWM+2GTI+l5IdMYvwCEhdm7ECUQZ6lF/omJYNCbtpPVcW7umhtbLkJVa7aFtv0lR+nxaSilUXLSeSWtlSCh8U9+nOJxZX+f7KuKHnZoEVuv/5COElf2sp549l7EGbHcItqBVk42pXC6dG+2xTdaVGkz847zhQenRg36UJVrBHj8RrCoKtq3LrmZoklmAxzlfZLNOO2H+osRyeYg==]]></text>
+				<text><![CDATA[Pd7T/OAv9jfzh9KaOePmXJkSJQSLQkuxo22cz3GIHtgPeqCKFXA6IfXj225hzu9mfQnoY+qq937c9Kb0YmIKgV/ilw8frs4LiCWRzN54L6tJL0MT6aSXN9BA8NGamw5Kvwn3haIE7gfbkumrcKSMux9lJ3Snp/aJPKbc5yWVrqWaKWNPKAXmAckmMNEzqGtDx73AfO6rP6E8S4GhYYopN4j1MQd0oVBf/8InNW+nfWPDhClId4zpNSF2ytnW5GCuasuwl6KLLhzh+LszUeEeZqHeqvj2irEFRj2r2EmhxytxzGUzxDGf8pxX+DozYYZaWHL4Qv+60Xrj6euYppz0Pw==]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="123" y="138" width="447" height="36" uuid="287515ae-2946-4ba7-b5a5-1fea23c70906"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
-				<text><![CDATA[HZMeHQC0TR5Yk+e1SRPTfWuLIYBMhI+5P4s7dVkfdhnPgr2WgEA05eCjCK0j5N9tsFwT4cgALpJUPu+3DX9jIaodRa6KxzmiBmEN1Fj0+GVnOeIthGj4Z0bMEgJyebU6IuF63bO5yll0Yg8ERPJZf+yV+Q0+c3WpJNxR1R/vExA=]]></text>
+				<text><![CDATA[Uv623GpAlAULzdKZdGTdaNrYU1jgnrR/RFdxrH25nVQahzDUtF4k8Zr0l6hErsKPwhWiCEIu7kE9Irm3Illl+CRJd/lto6pY7GadHS7PZny3hY6Qb7aik9aEsBO4adFBltCYPtvj/dMtDb6UQ1RJ4n8rIxFKXI0vsqCy7VOrTbI=]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="122" y="198" width="447" height="62" uuid="8aa36265-8f17-4176-aea9-7d45b6b015cd"/>
 				<textElement>
 					<font size="8"/>
 				</textElement>
-				<text><![CDATA[||1.1|757efe11-1e6f-417a-b56f-7b147a0f361f|2018-07-06T17:07:29|PFE140312IW8|fE6px1kE1eUGJYUuFgpkqTPv6LPCS6GSkZc6co8nQKTM6N1Jsonn0Q8XWvfMJMvKVz9hPidz2lh0PKg/c0kVgtN1Kpj2nL60Mu4V/uD8gTHsyaaCtOT9N/zJkqj8hv9CdUK/1w9KWM+2GTI+l5IdMYvwCEhdm7ECUQZ6lF/omJYNCbtpPVcW7umhtbLkJVa7aFtv0lR+nxaSilUXLSeSWtlSCh8U9+nOJxZX+f7KuKHnZoEVuv/5COElf2sp549l7EGbHcItqBVk42pXC6dG+2xTdaVGkz847zhQenRg36UJVrBHj8RrCoKtq3LrmZoklmAxzlfZLNOO2H+osRyeYg==|00001000000306850881||]]></text>
+				<text><![CDATA[||1.1|67970821-e15b-4a71-9e3e-d134e69a1c6b|2018-08-14T09:37:33|PFE140312IW8|Pd7T/OAv9jfzh9KaOePmXJkSJQSLQkuxo22cz3GIHtgPeqCKFXA6IfXj225hzu9mfQnoY+qq937c9Kb0YmIKgV/ilw8frs4LiCWRzN54L6tJL0MT6aSXN9BA8NGamw5Kvwn3haIE7gfbkumrcKSMux9lJ3Snp/aJPKbc5yWVrqWaKWNPKAXmAckmMNEzqGtDx73AfO6rP6E8S4GhYYopN4j1MQd0oVBf/8InNW+nfWPDhClId4zpNSF2ytnW5GCuasuwl6KLLhzh+LszUeEeZqHeqvj2irEFRj2r2EmhxytxzGUzxDGf8pxX+DozYYZaWHL4Qv+60Xrj6euYppz0Pw==|00001000000306850881||]]></text>
 			</staticText>
 			<rectangle radius="10">
 				<reportElement x="0" y="0" width="572" height="52" uuid="81437a37-9a32-4129-8ea6-0d8d6964f4a9"/>
